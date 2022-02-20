@@ -86,3 +86,13 @@
 2022-02-20 12:34:38.166 INFO  searched a doctors by its speciality 
 2022-02-20 12:35:23.901 INFO  connected to the mongodb 
 2022-02-20 12:35:30.136 INFO  connected to the mongodb 
+2022-02-20 12:59:24.616 INFO  connected to the mongodb 
+2022-02-20 12:59:53.558 INFO  searched for all the doctors 
+2022-02-20 13:00:43.672 INFO  searched a doctors by its speciality 
+2022-02-20 13:00:48.362 INFO  searched a doctors by its speciality 
+2022-02-20 13:01:44.403 INFO  searched a doctors by its speciality 
+2022-02-20 13:02:52.865 INFO  searched a doctors by its speciality 
+2022-02-20 13:31:46.082 INFO  searched a doctors by its speciality 
+2022-02-20 13:31:54.317 INFO  searched a doctors by its speciality 
+2022-02-20 13:33:22.283 INFO  a new doctor is added to the database 
+2022-02-20 13:34:36.154 INFO  searched a doctors by its speciality 
