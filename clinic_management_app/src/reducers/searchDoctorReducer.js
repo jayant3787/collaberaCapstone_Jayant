@@ -9,6 +9,13 @@ const searchDoctorReducer = (state = {}, action) => {
             console.log(newState);
             return newState;
 
+            case "REMOVE_DOCTOR":
+            let dNumber = action.doctorNumber;
+            let [...newState2] = state;
+            newState2 = newState2.filter(item => item.name !== dNumber);
+            return newState2;
+
+
 
         default:
             return state;

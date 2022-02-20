@@ -18,9 +18,32 @@ const SearchDoctor = (props) => {
         props.searchDoctor(localState.speciality);
     }
 
+
+    const [localState1, setLocalState1] = useState({ doctorToRemove: "" });
+
+    const handleChange1 = (e) => {
+        e.preventDefault();
+        setLocalState1({ ...localState1, doctorToRemove: e.target.value });
+
+    };
+
+
+    const removeDoctor = () => {
+        // store.dispatch({ type: "REMOVE_NAME", playerName: localState.playerToRemove });
+        // console.log("latest store data is :");
+        // console.log(store.getState());
+        props.removeDoctor(localState1.doctorToRemove)
+
+    }
+
+
+
     return (
         <div>
-            <h1 style={{ margin: "50px" }}><b>SEARCH BY</b></h1>
+        {/* <hr style={{border:"2px solid brown"}}/> */}
+            <h1>DOCTOR SEARCH FORM</h1>
+            {/* <hr style={{border:"2px solid brown"}}/> */}
+            <h2 style={{ margin: "50px" }}><b>SEARCH BY</b></h2>
             <form style={{ margin: "50px" }}>
                 <label>SPECIALITY : </label>
                 <select name="speciality" onChange={handleChange} value={localState.value} >
@@ -45,7 +68,7 @@ const SearchDoctor = (props) => {
                         <th>DELETE ACTION</th>
                     </tr>
                     {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item.doctorNumber}</td><td> {item.name}</td><td> {item.qualification}
-                    </td><td>{item.speciality} </td><td><button>EDIT</button></td><td><button onClick="/doctors/delete/Jayant Sahu">DELETE</button></td></tr>) : ""}
+                    </td><td>{item.speciality} </td><td><button>EDIT</button></td><td><button onClick={(e) => removeDoctor(item.doctorToRemove)} >DELETE</button></td></tr>) : ""}
 
                 </table>
 

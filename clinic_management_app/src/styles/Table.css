@@ -9,3 +9,25 @@ th{
 td{
     text-align: center;
 }
+
+h1{
+    margin: 50px;
+    text-align:center;
+    border:3px solid black;
+    background-color:darkred;
+    color: rgb(222, 234, 243);
+}
+button{
+    background-color: darkred;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+}
+h2{
+    color: darkred;
+}
+select{
+    background-color:darkred;
+    color:white;
+}

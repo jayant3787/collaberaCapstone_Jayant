@@ -10,7 +10,8 @@ const mapStateToProps = (store) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        searchDoctor: (specialityVal) => dispatch({ type: "SEARCH_DOCTORS_WITH_SPECIALITY", speciality: specialityVal })
+        searchDoctor: (specialityVal) => dispatch({ type: "SEARCH_DOCTORS_WITH_SPECIALITY", speciality: specialityVal }),
+        removeDoctor: (drNumber) => dispatch({type:"REMOVE_DOCTOR", doctorNumber: drNumber }),
 
     }
 }
