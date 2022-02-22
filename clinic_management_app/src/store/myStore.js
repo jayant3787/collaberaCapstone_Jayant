@@ -1,11 +1,13 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux';
 import searchDoctorReducer from '../reducers/searchDoctorReducer';
-import rootSaga from '../sagas/searchDoctorSaga';
+import rootSaga from '../sagas/DoctorSaga';
 import {composeWithDevTools} from 'redux-devtools-extension';
 import createSagaMiddleware from 'redux-saga'
+import addDoctorReducer from '../reducers/addDoctorReducer';
 const sagaMiddleware = createSagaMiddleware();
 const rootReducer = combineReducers({
-    reducer1:searchDoctorReducer
+    reducer1:searchDoctorReducer,
+    reducer2:addDoctorReducer
 });
 const store = createStore(
     rootReducer,composeWithDevTools(applyMiddleware(sagaMiddleware))
@@ -23,7 +25,3 @@ sagaMiddleware.run(rootSaga);
 
 //once the middleware runs, it will call our helloSaga.
 //whenever any action is dispatched to any reducer
-
-// //lets see the action here itself
-// // i am going to dispatch any action. say "SEARCH_A_DOCTOR_SUCCESSFUL"action
-// store.dispatch({type:"SEARCH_A_DOCTOR_SUCCESSFUL"});

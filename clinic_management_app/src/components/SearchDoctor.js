@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import '../styles/Table.css'
 const SearchDoctor = (props) => {
     const specialityOptions = ["Orthodontist", "Cardiologist", "Dietician", "Opthalmologist", "Paediatrician", "Gastroentrologist", "Diabetologist"];
@@ -14,25 +15,13 @@ const SearchDoctor = (props) => {
 
     const searchDoctor = (e) => {
         e.preventDefault();
-        // store.dispatch({ type: "ADD", playName: localState2.nAdd, playAge: localState2.aAdd, playAwards: localState2.awAdd })
         props.searchDoctor(localState.speciality);
     }
 
 
-    const [localState1, setLocalState1] = useState({ doctorToRemove: "" });
-
-    const handleChange1 = (e) => {
+    const removeDoctor = (e,doctorNum) => {
         e.preventDefault();
-        setLocalState1({ ...localState1, doctorToRemove: e.target.value });
-
-    };
-
-
-    const removeDoctor = () => {
-        // store.dispatch({ type: "REMOVE_NAME", playerName: localState.playerToRemove });
-        // console.log("latest store data is :");
-        // console.log(store.getState());
-        props.removeDoctor(localState1.doctorToRemove)
+        props.removeDoctor(doctorNum)
 
     }
 
@@ -40,13 +29,11 @@ const SearchDoctor = (props) => {
 
     return (
         <div>
-        {/* <hr style={{border:"2px solid brown"}}/> */}
+            
+            <form>
             <h1>DOCTOR SEARCH FORM</h1>
-            {/* <hr style={{border:"2px solid brown"}}/> */}
-            <h2 style={{ margin: "50px" }}><b>SEARCH BY</b></h2>
-            <form style={{ margin: "50px" }}>
-                <label>SPECIALITY : </label>
-                <select name="speciality" onChange={handleChange} value={localState.value} >
+            <h2><b>SEARCH BY</b></h2>
+                <label><b>SPECIALITY :</b></label><select name="speciality" onChange={handleChange} value={localState.value} >
                     <option value={specialityOptions[0]}>Orthodontist</option>
                     <option value={specialityOptions[1]}>Cardiologist</option>
                     <option value={specialityOptions[2]}>Dietician</option>
@@ -68,9 +55,11 @@ const SearchDoctor = (props) => {
                         <th>DELETE ACTION</th>
                     </tr>
                     {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item.doctorNumber}</td><td> {item.name}</td><td> {item.qualification}
-                    </td><td>{item.speciality} </td><td><button>EDIT</button></td><td><button onClick={(e) => removeDoctor(item.doctorToRemove)} >DELETE</button></td></tr>) : ""}
+                    </td><td>{item.speciality} </td><td><Link to={{pathname:"/doctors/edit/?doctorNumber="+item.doctorNumber+"&_id="+item._id+"&name="+item.name+"&qualification="+item.qualification+"&speciality="+item.speciality}}>EDIT</Link></td><td><button onClick={(e) => removeDoctor(e,item.doctorNumber)} >DELETE</button></td></tr>) : ""}                    
 
                 </table>
+                {props.doctorData.deleteDoctorSuccess ?  props.doctorData.deleteDoctorSuccess +  "search again to refresh the search results":""}
+
 
             </form>
         </div>

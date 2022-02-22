@@ -130,3 +130,255 @@
 2022-02-20 17:42:53.709 INFO  searched a doctors by its speciality 
 2022-02-20 17:43:17.527 INFO  searched a doctors by its speciality 
 2022-02-20 17:43:26.207 INFO  searched a doctors by its speciality 
+2022-02-21 08:48:28.087 INFO  connected to the mongodb 
+2022-02-21 08:58:58.151 INFO  searched a doctors by its speciality 
+2022-02-21 08:59:42.668 INFO  connected to the mongodb 
+2022-02-21 09:07:46.080 INFO  connected to the mongodb 
+2022-02-21 09:29:15.664 INFO  searched a doctors by its speciality 
+2022-02-21 09:29:29.641 INFO  searched a doctors by its speciality 
+2022-02-21 09:29:37.214 INFO  searched a doctors by its speciality 
+2022-02-21 09:29:49.310 INFO  searched a doctors by its speciality 
+2022-02-21 09:29:54.958 INFO  searched a doctors by its speciality 
+2022-02-21 09:42:27.271 INFO  searched a doctors by its speciality 
+2022-02-21 09:44:55.709 INFO  searched a doctors by its speciality 
+2022-02-21 11:12:28.874 INFO  searched a doctors by its speciality 
+2022-02-21 11:12:45.212 INFO  searched a doctors by its speciality 
+2022-02-21 11:24:38.750 INFO  searched a doctors by its speciality 
+2022-02-21 12:04:41.132 INFO  searched a doctors by its speciality 
+2022-02-21 12:04:55.517 INFO  searched a doctors by its speciality 
+2022-02-21 12:05:04.039 INFO  searched a doctors by its speciality 
+2022-02-21 12:05:10.874 INFO  searched a doctors by its speciality 
+2022-02-21 12:23:48.437 INFO  searched a doctors by its speciality 
+2022-02-21 12:23:54.066 INFO  searched a doctors by its speciality 
+2022-02-21 12:40:24.202 INFO  searched a doctors by its speciality 
+2022-02-21 12:55:06.020 INFO  searched a doctors by its speciality 
+2022-02-21 13:56:31.193 INFO  searched a doctors by its speciality 
+2022-02-21 13:56:56.936 INFO  searched a doctors by its speciality 
+2022-02-21 14:05:56.186 INFO  searched a doctors by its speciality 
+2022-02-21 14:06:04.019 INFO  searched a doctors by its speciality 
+2022-02-21 14:07:54.391 INFO  connected to the mongodb 
+2022-02-21 14:08:06.194 INFO  connected to the mongodb 
+2022-02-21 14:08:27.464 INFO  connected to the mongodb 
+2022-02-21 14:08:31.825 INFO  connected to the mongodb 
+2022-02-21 14:08:44.312 INFO  connected to the mongodb 
+2022-02-21 14:12:46.858 INFO  searched a doctors by its speciality 
+2022-02-21 14:13:18.500 INFO  searched a doctors by its speciality 
+2022-02-21 14:15:49.092 INFO  searched a doctors by its speciality 
+2022-02-21 14:16:47.820 INFO  searched a doctors by its speciality 
+2022-02-21 14:17:41.315 INFO  searched a doctors by its speciality 
+2022-02-21 14:23:30.583 INFO  searched a doctors by its speciality 
+2022-02-21 14:23:40.804 INFO  doctor deleted by its name 
+2022-02-21 14:24:15.908 INFO  searched a doctors by its speciality 
+2022-02-21 14:29:40.178 INFO  searched a doctors by its speciality 
+2022-02-21 14:29:45.731 INFO  searched a doctors by its speciality 
+2022-02-21 14:29:54.935 INFO  doctor deleted by its name 
+2022-02-21 14:33:38.758 INFO  searched a doctors by its speciality 
+2022-02-21 14:33:41.403 INFO  doctor deleted by its name 
+2022-02-21 15:24:49.416 INFO  connected to the mongodb 
+2022-02-21 15:24:52.347 INFO  connected to the mongodb 
+2022-02-21 15:24:53.627 INFO  connected to the mongodb 
+2022-02-21 15:24:55.335 INFO  connected to the mongodb 
+2022-02-21 15:24:57.878 INFO  connected to the mongodb 
+2022-02-21 15:25:06.490 INFO  connected to the mongodb 
+2022-02-21 15:25:32.845 INFO  connected to the mongodb 
+2022-02-21 15:25:38.159 INFO  connected to the mongodb 
+2022-02-21 15:30:01.073 INFO  a new doctor is added to the database 
+2022-02-21 15:30:49.091 INFO  searched a doctors by its speciality 
+2022-02-21 15:30:56.931 INFO  doctor deleted by its name 
+2022-02-21 15:31:11.257 INFO  searched a doctors by its speciality 
+2022-02-21 15:31:17.436 INFO  searched a doctors by its speciality 
+2022-02-21 15:31:27.132 INFO  searched a doctors by its speciality 
+2022-02-21 15:31:39.988 INFO  doctor deleted by its name 
+2022-02-21 15:31:44.618 INFO  searched a doctors by its speciality 
+2022-02-21 15:35:35.271 INFO  a new doctor is added to the database 
+2022-02-21 15:36:49.199 INFO  searched a doctors by its speciality 
+2022-02-21 15:36:52.790 INFO  searched a doctors by its speciality 
+2022-02-21 15:37:09.759 INFO  doctor deleted by its name 
+2022-02-21 15:49:22.792 INFO  searched for all the doctors 
+2022-02-21 15:49:45.438 INFO  searched a doctors by its speciality 
+2022-02-21 15:49:50.465 INFO  searched a doctors by its speciality 
+2022-02-21 15:50:19.882 INFO  searched a doctors by its speciality 
+2022-02-21 15:50:28.330 INFO  searched a doctors by its speciality 
+2022-02-21 15:50:33.373 INFO  searched a doctors by its speciality 
+2022-02-21 15:50:38.760 INFO  searched a doctors by its speciality 
+2022-02-21 15:50:50.242 INFO  doctor deleted by its name 
+2022-02-21 15:50:53.099 INFO  searched a doctors by its speciality 
+2022-02-21 15:52:45.455 INFO  searched for all the doctors 
+2022-02-21 15:54:23.018 INFO  a new doctor is added to the database 
+2022-02-21 15:54:41.254 INFO  searched for all the doctors 
+2022-02-21 16:50:08.631 INFO  a new doctor is added to the database 
+2022-02-21 16:50:32.968 INFO  searched a doctors by its speciality 
+2022-02-21 16:53:11.276 INFO  searched for all the doctors 
+2022-02-21 17:17:05.150 INFO  a new doctor is added to the database 
+2022-02-21 17:17:16.414 INFO  searched a doctors by its speciality 
+2022-02-21 17:35:04.031 INFO  a new doctor is added to the database 
+2022-02-21 17:35:31.637 INFO  a new doctor is added to the database 
+2022-02-21 17:35:54.923 INFO  a new doctor is added to the database 
+2022-02-21 17:36:23.015 INFO  a new doctor is added to the database 
+2022-02-21 17:36:56.487 INFO  a new doctor is added to the database 
+2022-02-21 17:37:17.165 INFO  a new doctor is added to the database 
+2022-02-21 17:37:34.123 INFO  a new doctor is added to the database 
+2022-02-21 17:37:58.835 INFO  a new doctor is added to the database 
+2022-02-21 17:38:26.310 INFO  a new doctor is added to the database 
+2022-02-21 17:38:48.509 INFO  a new doctor is added to the database 
+2022-02-21 17:39:15.191 INFO  a new doctor is added to the database 
+2022-02-21 17:39:45.514 INFO  a new doctor is added to the database 
+2022-02-21 17:40:15.711 INFO  a new doctor is added to the database 
+2022-02-21 17:40:27.001 INFO  searched for all the doctors 
+2022-02-21 17:40:43.853 INFO  searched a doctors by its speciality 
+2022-02-21 17:40:50.836 INFO  searched a doctors by its speciality 
+2022-02-21 17:40:56.154 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:03.394 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:13.078 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:19.239 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:24.451 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:28.792 INFO  doctor deleted by its name 
+2022-02-21 17:41:31.715 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:36.402 INFO  searched a doctors by its speciality 
+2022-02-21 17:41:56.148 INFO  searched a doctors by its speciality 
+2022-02-21 17:42:00.500 INFO  searched a doctors by its speciality 
+2022-02-21 17:43:16.881 INFO  a new doctor is added to the database 
+2022-02-21 17:43:44.021 INFO  a new doctor is added to the database 
+2022-02-21 17:43:58.366 INFO  searched a doctors by its speciality 
+2022-02-21 17:44:03.050 INFO  searched a doctors by its speciality 
+2022-02-21 17:44:21.084 INFO  searched a doctors by its speciality 
+2022-02-22 08:15:40.122 INFO  connected to the mongodb 
+2022-02-22 08:31:43.628 INFO  searched a doctors by its speciality 
+2022-02-22 08:31:53.347 INFO  searched a doctors by its speciality 
+2022-02-22 08:32:01.243 INFO  searched a doctors by its speciality 
+2022-02-22 09:49:02.622 INFO  searched a doctors by its speciality 
+2022-02-22 09:49:20.428 INFO  searched a doctors by its speciality 
+2022-02-22 09:49:28.399 INFO  searched a doctors by its speciality 
+2022-02-22 09:51:30.240 INFO  searched a doctors by its speciality 
+2022-02-22 09:52:17.442 INFO  searched a doctors by its speciality 
+2022-02-22 09:54:39.914 INFO  searched a doctors by its speciality 
+2022-02-22 09:56:40.808 INFO  searched a doctors by its speciality 
+2022-02-22 10:11:00.218 INFO  connected to the mongodb 
+2022-02-22 10:24:46.060 INFO  searched a doctors by its speciality 
+2022-02-22 10:29:35.725 INFO  searched a doctors by its speciality 
+2022-02-22 10:41:06.408 INFO  searched a doctors by its speciality 
+2022-02-22 11:19:07.499 INFO  searched a doctors by its speciality 
+2022-02-22 11:19:44.495 INFO  searched a doctors by its speciality 
+2022-02-22 11:59:21.821 INFO  searched a doctors by its speciality 
+2022-02-22 13:56:58.639 INFO  a new doctor is added to the database 
+2022-02-22 13:57:11.448 INFO  searched a doctors by its speciality 
+2022-02-22 13:58:36.107 INFO  searched a doctors by its speciality 
+2022-02-22 14:20:54.293 INFO  searched a doctors by its speciality 
+2022-02-22 14:22:47.500 INFO  searched a doctors by its speciality 
+2022-02-22 14:23:46.361 INFO  searched a doctors by its speciality 
+2022-02-22 14:26:18.604 INFO  searched a doctors by its speciality 
+2022-02-22 14:26:36.948 INFO  searched a doctors by its speciality 
+2022-02-22 14:28:02.218 INFO  searched a doctors by its speciality 
+2022-02-22 14:28:38.963 INFO  searched a doctors by its speciality 
+2022-02-22 14:32:16.241 INFO  searched a doctors by its speciality 
+2022-02-22 14:36:12.086 INFO  searched a doctors by its speciality 
+2022-02-22 14:36:23.008 INFO  doctor deleted by its name 
+2022-02-22 14:36:27.252 INFO  searched a doctors by its speciality 
+2022-02-22 14:37:23.323 INFO  a new doctor is added to the database 
+2022-02-22 14:37:40.723 INFO  searched a doctors by its speciality 
+2022-02-22 14:46:23.846 INFO  searched a doctors by its speciality 
+2022-02-22 14:46:54.854 INFO  searched a doctors by its speciality 
+2022-02-22 14:46:59.595 INFO  searched a doctors by its speciality 
+2022-02-22 15:08:46.674 INFO  searched a doctors by its speciality 
+2022-02-22 15:09:01.948 INFO  searched a doctors by its speciality 
+2022-02-22 15:09:06.724 INFO  searched a doctors by its speciality 
+2022-02-22 15:09:10.869 INFO  searched a doctors by its speciality 
+2022-02-22 15:17:11.678 INFO  searched a doctors by its speciality 
+2022-02-22 15:20:46.992 INFO  searched a doctors by its speciality 
+2022-02-22 15:26:54.583 INFO  searched a doctors by its speciality 
+2022-02-22 15:27:20.661 INFO  doctor info is updated 
+2022-02-22 15:27:55.673 INFO  searched a doctors by its speciality 
+2022-02-22 15:31:22.664 INFO  connected to the mongodb 
+2022-02-22 15:31:26.931 INFO  connected to the mongodb 
+2022-02-22 15:31:32.626 INFO  connected to the mongodb 
+2022-02-22 15:31:33.824 INFO  connected to the mongodb 
+2022-02-22 15:31:37.036 INFO  connected to the mongodb 
+2022-02-22 15:31:52.294 INFO  connected to the mongodb 
+2022-02-22 15:32:01.278 INFO  connected to the mongodb 
+2022-02-22 15:32:07.891 INFO  connected to the mongodb 
+2022-02-22 15:32:09.754 INFO  connected to the mongodb 
+2022-02-22 15:32:19.222 INFO  connected to the mongodb 
+2022-02-22 15:32:21.567 INFO  connected to the mongodb 
+2022-02-22 15:32:32.881 INFO  connected to the mongodb 
+2022-02-22 15:32:35.504 INFO  connected to the mongodb 
+2022-02-22 15:33:21.674 INFO  connected to the mongodb 
+2022-02-22 15:33:27.001 INFO  connected to the mongodb 
+2022-02-22 15:33:32.562 INFO  connected to the mongodb 
+2022-02-22 15:33:49.074 INFO  connected to the mongodb 
+2022-02-22 15:33:53.836 INFO  connected to the mongodb 
+2022-02-22 15:33:56.655 INFO  connected to the mongodb 
+2022-02-22 15:34:01.802 INFO  connected to the mongodb 
+2022-02-22 15:34:05.706 INFO  connected to the mongodb 
+2022-02-22 15:34:10.575 INFO  connected to the mongodb 
+2022-02-22 15:34:11.865 INFO  connected to the mongodb 
+2022-02-22 15:34:21.040 INFO  connected to the mongodb 
+2022-02-22 15:34:28.559 INFO  connected to the mongodb 
+2022-02-22 15:34:36.942 INFO  connected to the mongodb 
+2022-02-22 15:47:59.560 INFO  connected to the mongodb 
+2022-02-22 16:38:07.080 INFO  connected to the mongodb 
+2022-02-22 16:39:15.749 INFO  connected to the mongodb 
+2022-02-22 16:39:24.006 INFO  connected to the mongodb 
+2022-02-22 16:39:26.243 INFO  connected to the mongodb 
+2022-02-22 16:39:32.528 INFO  connected to the mongodb 
+2022-02-22 16:39:50.214 INFO  connected to the mongodb 
+2022-02-22 16:40:01.434 INFO  connected to the mongodb 
+2022-02-22 16:40:07.218 INFO  connected to the mongodb 
+2022-02-22 16:40:12.096 INFO  connected to the mongodb 
+2022-02-22 16:40:23.228 INFO  connected to the mongodb 
+2022-02-22 16:40:29.881 INFO  connected to the mongodb 
+2022-02-22 16:41:10.755 INFO  connected to the mongodb 
+2022-02-22 16:41:21.497 INFO  connected to the mongodb 
+2022-02-22 16:41:32.546 INFO  connected to the mongodb 
+2022-02-22 16:42:05.394 INFO  connected to the mongodb 
+2022-02-22 16:42:15.006 INFO  connected to the mongodb 
+2022-02-22 16:42:23.260 INFO  connected to the mongodb 
+2022-02-22 16:42:30.796 INFO  connected to the mongodb 
+2022-02-22 16:42:51.293 INFO  connected to the mongodb 
+2022-02-22 16:42:54.411 INFO  connected to the mongodb 
+2022-02-22 16:43:13.427 INFO  connected to the mongodb 
+2022-02-22 16:43:14.798 INFO  connected to the mongodb 
+2022-02-22 16:43:16.239 INFO  connected to the mongodb 
+2022-02-22 16:43:18.887 INFO  connected to the mongodb 
+2022-02-22 16:43:21.846 INFO  connected to the mongodb 
+2022-02-22 16:43:23.176 INFO  connected to the mongodb 
+2022-02-22 16:43:29.484 INFO  connected to the mongodb 
+2022-02-22 16:43:34.753 INFO  connected to the mongodb 
+2022-02-22 16:43:47.380 INFO  connected to the mongodb 
+2022-02-22 16:43:54.986 INFO  connected to the mongodb 
+2022-02-22 16:43:56.760 INFO  connected to the mongodb 
+2022-02-22 16:44:04.846 INFO  connected to the mongodb 
+2022-02-22 16:44:13.858 INFO  connected to the mongodb 
+2022-02-22 16:44:17.791 INFO  connected to the mongodb 
+2022-02-22 16:44:54.041 INFO  connected to the mongodb 
+2022-02-22 16:45:03.274 INFO  connected to the mongodb 
+2022-02-22 16:45:44.117 INFO  connected to the mongodb 
+2022-02-22 16:45:45.152 INFO  connected to the mongodb 
+2022-02-22 16:45:56.234 INFO  connected to the mongodb 
+2022-02-22 16:46:00.711 INFO  connected to the mongodb 
+2022-02-22 16:46:08.166 INFO  connected to the mongodb 
+2022-02-22 16:46:21.184 INFO  connected to the mongodb 
+2022-02-22 16:46:26.195 INFO  connected to the mongodb 
+2022-02-22 16:48:24.634 INFO  connected to the mongodb 
+2022-02-22 16:48:28.789 INFO  connected to the mongodb 
+2022-02-22 16:48:34.969 INFO  connected to the mongodb 
+2022-02-22 16:48:50.256 INFO  connected to the mongodb 
+2022-02-22 16:48:55.544 INFO  connected to the mongodb 
+2022-02-22 16:48:58.744 INFO  connected to the mongodb 
+2022-02-22 16:49:03.914 INFO  connected to the mongodb 
+2022-02-22 16:50:27.397 INFO  searched for all the doctors 
+2022-02-22 16:53:26.992 INFO  obtain request for searching a doctor by its name Jayant Sahu 
+2022-02-22 16:55:24.242 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-22 16:56:28.257 INFO  obtain request for adding a doctor Lohri Athisii 
+2022-02-22 16:56:28.273 INFO  a new doctor is added to the database with ID 6214c864050c211bfd405ebe 
+2022-02-22 16:58:05.263 INFO  searched for all the doctors 
+2022-02-22 16:59:35.070 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-22 17:01:24.084 INFO  obtain request for deleting a doctor by its ID 6214c864050c211bfd405ebe 
+2022-02-22 17:01:24.092 INFO  one doctor deleted 
+2022-02-22 17:01:24.093 INFO  one doctor is deleted to the database with ID 6214c864050c211bfd405ebe 
+2022-02-22 17:01:24.093 INFO  doctor deleted by its ID 
+2022-02-22 17:01:35.856 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-22 17:10:34.230 INFO  connected to the mongodb 
+2022-02-22 17:15:37.412 INFO  obtain request for deleting a doctor by its ID [object Object] 
+2022-02-22 17:15:37.429 INFO  doctor info is updated 
+2022-02-22 17:15:37.432 INFO  one doctor info is updated to the database with ID 6214a7cbe2827ffc38e7101b 
+2022-02-22 17:16:44.399 INFO  obtain request for searching a doctor by its speciality Opthalmologist 
