@@ -1,7 +1,6 @@
 // import 'bootstrap/dist/bootstrap.min.css';
 import { Route, Routes } from "react-router";
 import './App.css';
-import NavBar from './components/Navbar';
 import NoPageFound from "./components/NoPageFound";
 import SearchDoctorContainer from "./components/SearchDoctorContainer";
 import store from "./store/myStore";

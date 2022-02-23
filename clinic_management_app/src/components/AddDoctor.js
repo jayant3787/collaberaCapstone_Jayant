@@ -38,11 +38,11 @@ const AddDoctor = (props) => {
 
     return (
 
-        <div class='container'>
+        <div>
 
             <form>
              <h1 style={{ textAlign: "center" }}>{props.mode==="edit"? "EDIT DOCTOR FORM":"ADD NEW DOCTOR FORM"}</h1>
-                <div className='col sm' style={{ textAlign: "center" }}><label for="dNo">DOCTOR NUMBER :</label> {props.mode==="edit"? <input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required disabled />:<input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required />}<br /><br />
+                <div style={{ textAlign: "center" }}><label for="dNo">DOCTOR NUMBER :</label> {props.mode==="edit"? <input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required disabled />:<input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required />}<br /><br />
                 <label for="dNa">NAME : </label>   {props.mode==="edit"? <input type="text" name="name" value={localState.name} onChange={handleChange} required disabled />:<input type="text" name="name" value={localState.name} onChange={handleChange} required />}<br /><br />
                     <label for="dQa">QUALIFICATION : </label><input type="text" name="qualification" value={localState.qualification} onChange={handleChange} required /><br /><br />
                     <label for="dSpl">SPECIALITY : </label>{props.mode==="edit"? <select name="speciality" value={localState.speciality} onChange={handleChange} required disabled><br /><br />

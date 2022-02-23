@@ -4,8 +4,7 @@ import { put, takeLatest, all } from "redux-saga/effects";
 
 // search for a doctor by its speciality
 function* searchDoctor(action) {
-  console.log("Inside Doctor saga");
-  console.log(action);
+  
   const json = yield fetch("http://localhost:8000/doctors/search/speciality/" + action.speciality).then((response) =>
 
     response.json()
@@ -19,8 +18,7 @@ function* searchActionWatcher() {
 
 //delete doctor saga
 function* deleteDoctor(action) {
-  console.log("Inside doctor saga delete");
-  console.log(action);
+
   const json = yield fetch("http://localhost:8000/doctors/delete/" + action.doctorNumber).then((response) =>
 
     response.json()
