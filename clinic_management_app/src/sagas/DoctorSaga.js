@@ -69,7 +69,7 @@ function* editDoctor(action) {
 
   var stringifiedBody = JSON.stringify(bodyContent);
 
-  const serverResponse = yield fetch("http://localhost:8000/doctors/edit/"+action.doctor._id, {
+  const serverResponse = yield fetch("http://localhost:8000/doctors/edit/" + action.doctor._id, {
     method: "POST",
     body: stringifiedBody,
     headers: {

@@ -1,53 +1,62 @@
-table,th,td{
-    border: 2px solid black;
-    border-collapse:collapse;
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
-th{
-    background-color: brown;
-    color:white;
+th {
+  background-color: brown;
+  color: white;
 }
-td{
-    text-align: center;
-}
-
-h1{
-    text-align:center;
-    border:3px solid black;
-    background-color:darkred;
-    color: rgb(222, 234, 243);
-}
-button{
-    background-color: darkred;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    width: auto;
-}
-h2{
-    color: darkred;
-    margin: 4px;
-}
-select{
-    background-color:darkred;
-    color:white;
-    width: 171px;
-
+td {
+  text-align: center;
 }
 
-form{
-    margin: 10px;
-    background-color: rgb(190, 215, 236);
-    border-radius: 5px;
+h1 {
+  text-align: center;
+  border: 3px solid black;
+  background-color: darkred;
+  color: rgb(222, 234, 243);
+}
+button {
+  background-color: darkred;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+}
+h2 {
+  color: darkred;
+  margin: 4px;
+}
+select {
+  background-color: darkred;
+  color: white;
+  width: 171px;
 }
 
-label{
-    width: 180px;
-    display:inline-block;
-    margin: 4px;
+form {
+  margin: 10px;
+  background-color: rgb(190, 215, 236);
+  border-radius: 5px;
 }
-.form{
-    border-radius: 10px;
-    background: rgb(241, 76, 89);
-    width:290px;
-    padding: 4px;
+
+label {
+  width: 180px;
+  display: inline-block;
+  margin: 4px;
+}
+.form {
+  border-radius: 10px;
+  background: rgb(241, 76, 89);
+  width: 290px;
+  padding: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-bottom: 20px;
 }
