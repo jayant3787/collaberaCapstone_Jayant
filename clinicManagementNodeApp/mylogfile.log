@@ -420,3 +420,10 @@
 2022-02-23 10:11:43.018 INFO  connected to the mongodb 
 2022-02-23 10:11:46.056 INFO  connected to the mongodb 
 2022-02-23 10:25:54.980 INFO  connected to the mongodb 
+2022-02-23 10:26:35.708 INFO  connected to the mongodb 
+2022-02-23 10:29:32.996 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 10:30:04.100 INFO  obtain request for adding a doctor Suhana Farishta 
+2022-02-23 10:30:04.118 INFO  a new doctor is added to the database with ID 6215bf5433a4d9204e918a12 
+2022-02-23 10:30:36.421 INFO  obtain request for adding a doctor Sarfaraz Ahmed 
+2022-02-23 10:30:36.427 INFO  a new doctor is added to the database with ID 6215bf7433a4d9204e918a14 
+2022-02-23 10:30:46.995 INFO  obtain request for searching a doctor by its speciality Dietician 
