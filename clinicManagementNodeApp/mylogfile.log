@@ -382,3 +382,41 @@
 2022-02-22 17:15:37.429 INFO  doctor info is updated 
 2022-02-22 17:15:37.432 INFO  one doctor info is updated to the database with ID 6214a7cbe2827ffc38e7101b 
 2022-02-22 17:16:44.399 INFO  obtain request for searching a doctor by its speciality Opthalmologist 
+2022-02-23 08:51:46.021 INFO  connected to the mongodb 
+2022-02-23 08:58:50.958 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 08:58:59.930 INFO  obtain request for deleting a doctor 201 
+2022-02-23 08:58:59.951 INFO  one doctor deleted 
+2022-02-23 08:58:59.952 INFO  doctor deleted by its name 
+2022-02-23 08:59:02.447 INFO  obtain request for deleting a doctor 656 
+2022-02-23 08:59:02.451 INFO  one doctor deleted 
+2022-02-23 08:59:02.452 INFO  doctor deleted by its name 
+2022-02-23 08:59:05.412 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 08:59:15.568 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 09:30:05.270 INFO  connected to the mongodb 
+2022-02-23 09:42:49.754 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 09:58:02.912 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 09:58:07.329 INFO  obtain request for deleting a doctor 777 
+2022-02-23 09:58:07.339 INFO  one doctor deleted 
+2022-02-23 09:58:07.340 INFO  doctor deleted by its name 
+2022-02-23 09:58:09.803 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 10:04:02.119 INFO  connected to the mongodb 
+2022-02-23 10:04:10.684 INFO  connected to the mongodb 
+2022-02-23 10:04:23.610 INFO  connected to the mongodb 
+2022-02-23 10:04:38.638 INFO  connected to the mongodb 
+2022-02-23 10:05:29.598 INFO  connected to the mongodb 
+2022-02-23 10:05:40.440 INFO  connected to the mongodb 
+2022-02-23 10:06:07.366 INFO  connected to the mongodb 
+2022-02-23 10:06:50.583 INFO  connected to the mongodb 
+2022-02-23 10:06:51.838 INFO  connected to the mongodb 
+2022-02-23 10:08:43.283 INFO  connected to the mongodb 
+2022-02-23 10:10:49.741 INFO  connected to the mongodb 
+2022-02-23 10:11:18.692 INFO  connected to the mongodb 
+2022-02-23 10:11:21.438 INFO  connected to the mongodb 
+2022-02-23 10:11:24.490 INFO  connected to the mongodb 
+2022-02-23 10:11:28.845 INFO  connected to the mongodb 
+2022-02-23 10:11:30.565 INFO  connected to the mongodb 
+2022-02-23 10:11:33.786 INFO  connected to the mongodb 
+2022-02-23 10:11:38.017 INFO  connected to the mongodb 
+2022-02-23 10:11:43.018 INFO  connected to the mongodb 
+2022-02-23 10:11:46.056 INFO  connected to the mongodb 
+2022-02-23 10:25:54.980 INFO  connected to the mongodb 

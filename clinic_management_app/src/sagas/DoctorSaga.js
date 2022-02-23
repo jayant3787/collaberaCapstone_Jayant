@@ -12,7 +12,7 @@ function* searchDoctor(action) {
   );
   yield put({ type: "SEARCH_A_DOCTOR_SUCCESSFUL", json: json });
 }
-function* actionWatcher() {
+function* searchActionWatcher() {
   yield takeLatest("SEARCH_DOCTORS_WITH_SPECIALITY", searchDoctor);
 }
 
@@ -27,7 +27,7 @@ function* deleteDoctor(action) {
   );
   yield put({ type: "DELETE_DOCTOR_RESULTS", json: json });
 }
-function* actionWatcher2() {
+function* deleteActionWatcher() {
   yield takeLatest("DELETE_DOCTORS_WITH_NUMBER", deleteDoctor);
 }
 
@@ -57,7 +57,7 @@ function* addNewDoctor(action) {
   yield put({ type: "ADD_A_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 }
 
-function* actionWatcher1() {
+function* addActionWatcher() {
   yield takeLatest("ADD_A_DOCTOR_TO_BACKEND", addNewDoctor);
 }
 
@@ -80,7 +80,7 @@ function* editDoctor(action) {
   yield put({ type: "EDIT_A_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 }
 
-function* actionWatcher3() {
+function* editActionWatcher() {
   yield takeLatest("EDIT_A_DOCTOR_TO_BACKEND", editDoctor);
 }
 
@@ -91,10 +91,10 @@ function* actionWatcher3() {
 // for all the above sagas we need to create root saga
 export default function* rootSaga() {
   yield all([
-    actionWatcher(),
-    actionWatcher1(),
-    actionWatcher2(),
-    actionWatcher3()
+    searchActionWatcher(),
+    addActionWatcher(),
+    deleteActionWatcher(),
+    editActionWatcher()
 
   ]);
 }

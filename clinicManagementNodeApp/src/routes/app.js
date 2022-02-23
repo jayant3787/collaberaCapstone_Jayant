@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from "mongoose";
 import bodyParser from 'body-parser';
-import '../models/Doctor.js'
+import '../models/Doctor.js';
 import '../models/Appointment.js';
 import '../models/Patient.js';
 import '../models/PatientHistory.js';
@@ -19,10 +19,6 @@ import  SimpleNodeLogger from 'simple-node-logger';
 const log = SimpleNodeLogger.createSimpleLogger( opts );
 
 
-
-
-
-
 const connectionStr = `mongodb://localhost:27017/clinicdb`;
 mongoose.connect(connectionStr)
   .then(() => {
@@ -32,7 +28,7 @@ mongoose.connect(connectionStr)
     log.error(err.message)
   });
 
-  var app = express();
+var app = express();
 
 app.use(express.static('public'));
 
