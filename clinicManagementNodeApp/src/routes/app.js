@@ -106,14 +106,17 @@ app.get('/doctors/delete/:doctorNumber', (req, res,) => {
 app.post('/doctors/delete/:id', (req, res,) => {
   log.info(`obtain request for deleting a doctor by its ID ${req.params.id}`)
   Doctors.findByIdAndDelete(req.params.id).then((doc) => {
+    if(doc==null){
+      log.info(`no such doctor with${req.params.id}`)
+      res.status(200).send({msg:"No such doctor with this ID"});
+    }
     log.info("one doctor deleted")
     res.status(200).send({msg:"Doctor removed successfully"});
     log.info(`one doctor is deleted to the database with ID ${doc._id}`) 
     log.info(`doctor deleted by its ID`)
   }).catch((err) => {
     log.error(err)
-    res.status(400).send({msg:"Doctor with the id doesn't exist"});
-  
+    
   });
 });
 
@@ -132,3 +135,4 @@ app.post('/doctors/edit/:id', (req, res,) => {
 
 
 export default app;
+

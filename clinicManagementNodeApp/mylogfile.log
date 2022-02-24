@@ -427,3 +427,135 @@
 2022-02-23 10:30:36.421 INFO  obtain request for adding a doctor Sarfaraz Ahmed 
 2022-02-23 10:30:36.427 INFO  a new doctor is added to the database with ID 6215bf7433a4d9204e918a14 
 2022-02-23 10:30:46.995 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 11:04:32.364 INFO  connected to the mongodb 
+2022-02-23 11:04:41.152 INFO  obtain request for searching a doctor by its speciality Paediatrician 
+2022-02-23 11:04:47.760 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 11:07:44.029 INFO  obtain request for searching a doctor by its speciality Opthalmologist 
+2022-02-23 11:09:14.907 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 11:16:49.533 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 14:11:07.920 INFO  searched for all the doctors 
+2022-02-23 14:31:05.252 INFO  obtain request for adding a doctor Jonitha gandhi 
+2022-02-23 14:31:05.376 INFO  a new doctor is added to the database with ID 6215f7d112affe74cb4f3db5 
+2022-02-23 14:31:21.363 INFO  obtain request for searching a doctor by its speciality Diabetologist 
+2022-02-23 14:31:57.237 INFO  searched for all the doctors 
+2022-02-23 14:32:31.539 INFO  obtain request for searching a doctor by its name Jonitha Gandhi 
+2022-02-23 14:33:06.653 INFO  obtain request for searching a doctor by its name Jayant Sahu 
+2022-02-23 14:33:27.213 INFO  obtain request for searching a doctor by its name Jonitha gandhi 
+2022-02-23 15:28:24.352 INFO  obtain request for adding a doctor Athisii 
+2022-02-23 15:28:24.368 INFO  a new doctor is added to the database with ID 6216054012affe74cb4f3dbc 
+2022-02-23 15:33:07.649 INFO  connected to the mongodb 
+2022-02-23 15:33:28.515 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 15:33:32.088 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-23 15:34:00.895 INFO  obtain request for adding a doctor Jayant Kumar Sahu 
+2022-02-23 15:34:00.943 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":525}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) 
+2022-02-23 15:34:30.188 INFO  obtain request for adding a doctor Jayant Kumar Sahu 
+2022-02-23 15:34:30.193 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":525}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) 
+2022-02-23 15:35:13.987 INFO  obtain request for searching a doctor by its speciality Paediatrician 
+2022-02-23 15:35:18.914 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-23 15:35:38.360 INFO  searched for all the doctors 
+2022-02-23 15:38:51.708 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-23 15:38:54.760 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-23 15:40:26.991 INFO  obtain request for adding a doctor admin 
+2022-02-23 15:40:26.995 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":525}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 525 }
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) 
+2022-02-23 15:41:48.344 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-23 15:41:52.199 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-24 14:48:57.992 INFO  connected to the mongodb 
+2022-02-24 14:49:01.025 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-24 14:49:42.923 INFO  connected to the mongodb 
+2022-02-24 14:49:58.418 INFO  obtain request for searching a doctor by its speciality Paediatrician 
+2022-02-24 16:12:48.533 INFO  connected to the mongodb 
+2022-02-24 16:14:51.124 INFO  obtain request for deleting a doctor by its ID 6214c864050c211bfd405e 
+2022-02-24 16:14:51.133 ERROR Cast to ObjectId failed for value "6214c864050c211bfd405e" (type string) at path "_id" for model "Doctor"
+{"stringValue":"\"6214c864050c211bfd405e\"","valueType":"string","kind":"ObjectId","value":"6214c864050c211bfd405e","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"6214c864050c211bfd405e\" (type string) at path \"_id\" for model \"Doctor\""}
+CastError: Cast to ObjectId failed for value "6214c864050c211bfd405e" (type string) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///D:/Collabera_training/JayantSahu_Capstone/collaberaCapstone_Jayant/clinicManagementNodeApp/src/routes/app.js:108:44
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:360:14)
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 16:15:11.406 INFO  obtain request for deleting a doctor by its ID 6214c864050c211bfd4 
+2022-02-24 16:15:11.411 ERROR Cast to ObjectId failed for value "6214c864050c211bfd4" (type string) at path "_id" for model "Doctor"
+{"stringValue":"\"6214c864050c211bfd4\"","valueType":"string","kind":"ObjectId","value":"6214c864050c211bfd4","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"6214c864050c211bfd4\" (type string) at path \"_id\" for model \"Doctor\""}
+CastError: Cast to ObjectId failed for value "6214c864050c211bfd4" (type string) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///D:/Collabera_training/JayantSahu_Capstone/collaberaCapstone_Jayant/clinicManagementNodeApp/src/routes/app.js:108:44
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:360:14)
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 16:15:19.086 INFO  obtain request for deleting a doctor by its ID 6214c864050c211bfd4 
+2022-02-24 16:15:19.096 ERROR Cast to ObjectId failed for value "6214c864050c211bfd4" (type string) at path "_id" for model "Doctor"
+{"stringValue":"\"6214c864050c211bfd4\"","valueType":"string","kind":"ObjectId","value":"6214c864050c211bfd4","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"6214c864050c211bfd4\" (type string) at path \"_id\" for model \"Doctor\""}
+CastError: Cast to ObjectId failed for value "6214c864050c211bfd4" (type string) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4650:21)
+    at model.Query.Query.then (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\mongoose\lib\query.js:4749:15)
+    at file:///D:/Collabera_training/JayantSahu_Capstone/collaberaCapstone_Jayant/clinicManagementNodeApp/src/routes/app.js:108:44
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:360:14)
+    at param (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\router\index.js:371:14) 
+2022-02-24 16:15:54.742 INFO  searched for all the doctors 
+2022-02-24 16:17:00.730 INFO  obtain request for deleting a doctor by its ID 620f24300942becf17b7c687 
+2022-02-24 16:17:00.747 INFO  no such doctor with620f24300942becf17b7c687 
+2022-02-24 16:17:00.751 INFO  one doctor deleted 
+2022-02-24 16:17:00.752 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\Collabera_training\JayantSahu_Capstone\collaberaCapstone_Jayant\clinicManagementNodeApp\node_modules\express\lib\response.js:158:21)
+    at file:///D:/Collabera_training/JayantSahu_Capstone/collaberaCapstone_Jayant/clinicManagementNodeApp/src/routes/app.js:114:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+2022-02-24 16:17:12.667 INFO  searched for all the doctors 
+2022-02-24 16:17:26.337 INFO  connected to the mongodb 

@@ -53,10 +53,14 @@ label {
   padding: 4px;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .container {
   padding-bottom: 20px;
 }
+
+  
+  [class^="col"] {
+    background: lightcyan;
+    outline: 1px solid gray;
+  }
+  
