@@ -559,3 +559,44 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at processTicksAndRejections (node:internal/process/task_queues:96:5) 
 2022-02-24 16:17:12.667 INFO  searched for all the doctors 
 2022-02-24 16:17:26.337 INFO  connected to the mongodb 
+2022-02-24 21:36:00.476 INFO  connected to the mongodb 
+2022-02-24 21:37:30.399 INFO  obtain request for adding a doctor Sanjeeb Sahu 
+2022-02-24 21:37:30.441 INFO  a new doctor is added to the database with ID 6217ad424e68aae931fca9fb 
+2022-02-24 21:37:57.612 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-24 21:38:03.383 INFO  obtain request for deleting a doctor 654 
+2022-02-24 21:38:03.420 INFO  one doctor deleted 
+2022-02-24 21:38:03.421 INFO  doctor deleted by its name 
+2022-02-24 21:38:14.605 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-24 22:00:54.426 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-24 22:00:56.056 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-24 22:00:59.047 INFO  obtain request for searching a doctor by its speciality Cardiologist 
+2022-02-24 22:01:07.068 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-24 22:01:11.505 INFO  obtain request for searching a doctor by its speciality Diabetologist 
+2022-02-25 08:57:41.826 INFO  connected to the mongodb 
+2022-02-25 10:57:06.837 INFO  obtain request for searching a doctor by its speciality Dietician 
+2022-02-25 10:57:14.526 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 10:57:26.693 INFO  obtain request for deleting a doctor by its ID [object Object] 
+2022-02-25 10:57:26.796 INFO  doctor info is updated 
+2022-02-25 10:57:26.797 INFO  one doctor info is updated to the database with ID 6213803f9d81b90b60a45a55 
+2022-02-25 10:57:55.672 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 10:58:02.579 INFO  obtain request for deleting a doctor 555 
+2022-02-25 10:58:02.750 INFO  one doctor deleted 
+2022-02-25 10:58:02.751 INFO  doctor deleted by its name 
+2022-02-25 10:58:07.961 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 10:58:29.356 INFO  obtain request for adding a doctor Ashok 
+2022-02-25 10:58:29.680 INFO  a new doctor is added to the database with ID 621868fd5985ff784147a1f0 
+2022-02-25 10:58:43.465 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:01:06.415 INFO  connected to the mongodb 
+2022-02-25 11:09:47.994 INFO  connected to the mongodb 
+2022-02-25 11:09:51.294 INFO  connected to the mongodb 
+2022-02-25 11:09:54.716 INFO  connected to the mongodb 
+2022-02-25 11:09:56.006 INFO  connected to the mongodb 
+2022-02-25 11:10:08.322 INFO  connected to the mongodb 
+2022-02-25 11:10:15.350 INFO  connected to the mongodb 
+2022-02-25 11:10:24.299 INFO  connected to the mongodb 
+2022-02-25 11:10:36.616 INFO  connected to the mongodb 
+2022-02-25 11:10:47.871 INFO  connected to the mongodb 
+2022-02-25 11:11:51.594 INFO  connected to the mongodb 
+2022-02-25 11:12:10.874 INFO  connected to the mongodb 
+2022-02-25 11:12:15.059 INFO  connected to the mongodb 
+2022-02-25 11:12:21.836 INFO  connected to the mongodb 

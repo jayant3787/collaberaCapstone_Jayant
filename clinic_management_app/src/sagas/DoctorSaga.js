@@ -5,10 +5,11 @@ import { put, takeLatest, all } from "redux-saga/effects";
 // search for a doctor by its speciality
 function* searchDoctor(action) {
   
-  const json = yield fetch("http://localhost:8000/doctors/search/speciality/" + action.speciality).then((response) =>
+  const json = yield fetch("http://localhost:8000/doctors/search/speciality/" + action.speciality)
+  .then((response) =>
 
     response.json()
-  );
+  ).catch((err) =>console.log(err));
   yield put({ type: "SEARCH_A_DOCTOR_SUCCESSFUL", json: json });
 }
 function* searchActionWatcher() {
@@ -19,10 +20,11 @@ function* searchActionWatcher() {
 //delete doctor saga
 function* deleteDoctor(action) {
 
-  const json = yield fetch("http://localhost:8000/doctors/delete/" + action.doctorNumber).then((response) =>
+  const json = yield fetch("http://localhost:8000/doctors/delete/" + action.doctorNumber)
+  .then((response) =>
 
     response.json()
-  );
+  ).catch((err) =>console.log(err));
   yield put({ type: "DELETE_DOCTOR_RESULTS", json: json });
 }
 function* deleteActionWatcher() {
@@ -50,7 +52,9 @@ function* addNewDoctor(action) {
     headers: {
       "Content-type": "application/json;chartset=UTF-8",
     },
-  }).then((res) => res.json());
+  })
+  .then((res) => res.json())
+  .catch((err) =>console.log(err));
 
   yield put({ type: "ADD_A_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 }
@@ -73,7 +77,8 @@ function* editDoctor(action) {
     headers: {
       "Content-type": "application/json;chartset=UTF-8",
     },
-  }).then((res) => res.json());
+  }).then((res) => res.json())
+  .catch((err) =>console.log(err));
 
   yield put({ type: "EDIT_A_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 }

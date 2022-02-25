@@ -1,7 +1,6 @@
 import '../styles/Table.css'
 import { useState } from 'react'
-import { useLocation } from "react-router";
-import { Col, Row, Container } from "@kunukn/react-bootstrap-grid";  
+import { useLocation } from "react-router";  
 
 
 const AddDoctor = (props) => {
@@ -39,7 +38,6 @@ const AddDoctor = (props) => {
     return (
 
         <div>
-
             <form>
              <h1 style={{ textAlign: "center" }}>{props.mode==="edit"? "EDIT DOCTOR FORM":"ADD NEW DOCTOR FORM"}</h1>
                 <div style={{ textAlign: "center" }}><label for="dNo">DOCTOR NUMBER :</label> {props.mode==="edit"? <input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required disabled />:<input type="number" name="doctorNumber" value={localState.doctorNumber} onChange={handleChange} required />}<br /><br />

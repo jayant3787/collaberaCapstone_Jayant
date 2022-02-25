@@ -58,7 +58,6 @@ app.get('/doctors/search/name/:name', (req, res,) => {
   const dName = req.params.name;
   Doctors.find({name:dName}, function (err, docs) {
           res.json(docs);
-      
   });
 });
 
@@ -68,9 +67,7 @@ app.get('/doctors/search/speciality/:speciality', (req, res,) => {
   log.info(`obtain request for searching a doctor by its speciality ${req.params.speciality}`)
   const dSpeciality = req.params.speciality;
   Doctors.find({speciality:dSpeciality}, function (err, docs) {
-    console.log(docs);
-          res.json(docs);
-      
+          res.json(docs); 
   });
 });
 
@@ -82,7 +79,9 @@ app.post('/doctors/add/', (req, res,) => {
     res.status(200).send({msg:"New doctor added successfully"});
     log.info(`a new doctor is added to the database with ID ${doc._id}`) 
   }).catch((err) => {
-    log.error(err);
+    log.error(err)
+    res.status(400).send({msg:"wrong parameter given"});
+  
     
   });
 });
@@ -96,7 +95,7 @@ app.get('/doctors/delete/:doctorNumber', (req, res,) => {
     res.status(200).send({msg:"Doctor removed successfully"});
     log.info(`doctor deleted by its name`)
   }).catch((err) => {
-    console.log(err.Message);
+    log.error(err)
     res.status(400).send({msg:"Doctor doesn't exist to remove"});
   
   });
@@ -116,6 +115,8 @@ app.post('/doctors/delete/:id', (req, res,) => {
     log.info(`doctor deleted by its ID`)
   }).catch((err) => {
     log.error(err)
+    res.status(400).send({msg:"Doctor doesn't exist to remove"});
+  
     
   });
 });
@@ -129,7 +130,9 @@ app.post('/doctors/edit/:id', (req, res,) => {
     res.status(200).send({msg:" doctor updated successfully"});
     log.info(`one doctor info is updated to the database with ID ${doc._id}`) 
   }).catch((err) => {
-    log.error(err);    
+    log.error(err)
+    res.status(400).send({msg:"Doctor doesn't exist to edit"});
+      
   });
 });
 
